@@ -2,23 +2,32 @@
   "name": "gmcoin",
   "version": "1.0.0",
   "description": "Blockchain development project by GC & MI",
+  "engines": {
+    "node": "14.x"
+  },
+  "main": "index.js",
   "dependencies": {
-    "truffle": "5.3.2"
+    "truffle": "5.3.2",
+    "ejs": "^3.1.5",
+    "express": "^4.15.2"
   },
   "directories": {
     "test": "test"
   },
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/gcarnab/blockchain.git"
   },
+  "keywords": [
+    "blockchain",
+    "ipfs",
+    "truffle"
+  ],
   "author": "GC & MI",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/gcarnab/blockchain/issues"
-  },
+  "license": "UNLICENSED",
   "homepage": "https://github.com/gcarnab/blockchain#readme"
 }

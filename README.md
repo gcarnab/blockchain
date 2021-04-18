@@ -6,6 +6,10 @@ Blockchain Development Projects
 
 https://devcenter.heroku.com/articles/getting-started-with-nodejs#set-up
 
+### Heroku commands
+
+git push heroku main
+
 ## Installation instruction
 
 ### Dependencies
@@ -25,3 +29,15 @@ https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpg
 #### IPFS
 
 https://docs.ipfs.io/install/
+
+
+## Web Interface
+
+### Running locally
+
+Make sure you have [Node.js](http://nodejs.org/) and the [Heroku CLI](https://cli.heroku.com/) installed.
+
+$ npm install
+$ npm start
+
+Your app should now be running on [localhost:5000](http://localhost:5000/).
