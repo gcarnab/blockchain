@@ -8,3 +8,9 @@ ___
 
 - **GC_NFT** : test NFT example
 - **gmcoin** : test coin example
+
+## Resources
+
+- **Blockchain Visualizer** : https://txstreet.com/
+- **Blockchain Simulator** : https://andersbrownworth.com/blockchain/
+- **Ethereum Development** : https://remix.ethereum.org/
